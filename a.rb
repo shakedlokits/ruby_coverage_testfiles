@@ -1,3 +1,6 @@
 def hello(name)
-  "Hello world, it's #{name}"
+  if !name
+    return "Whoops!"
+  end
+  return "Hello world, it's #{name}"
 end
